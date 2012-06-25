@@ -1,5 +1,14 @@
-require 'sinatra'
+require 'rubygems'
+require 'sinatra/base'
+require 'haml'
 
-get '/' do
-  "Hello, Udacity!"
+class HiApp < Sinatra::Base
+  get '/:name' do
+    haml :hi
+  end
+
+  run! if app_file == $0
+
 end
+
+
