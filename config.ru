@@ -1,2 +1,2 @@
-require './hi'
+require 'hi'
 run HiApp
