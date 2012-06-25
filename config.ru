@@ -1,2 +1,3 @@
 require 'hi'
-run HiApp
+#run HiApp
+run Sinatra::Application
