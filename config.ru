@@ -1,4 +1,4 @@
 require './hi'
 
-#run HiApp
-run Sinatra::Application
+run HiApp
+#run Sinatra::Application
