@@ -1,3 +1,4 @@
-require 'hi'
+require './hi'
+
 #run HiApp
 run Sinatra::Application
